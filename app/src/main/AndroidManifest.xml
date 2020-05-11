@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplanetbit.learn.italian.hd"
+    android:versionName="1.0" android:versionCode="1">
+    <uses-sdk android:targetSdkVersion="14"/>
+
+    <supports-screens android:largeScreens="true"
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:resizeable="true"
+        android:normalScreens="true"
+        android:xlargeScreens="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <application android:icon="@drawable/it"
+        android:label="@string/app_name"
+        android:allowBackup="true">
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--suppress AndroidDomInspection -->
+        <activity android:label="@string/app_name" android:name=".AprenderItalianoHD">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:name="com.apptracker.android.module.AppModuleActivity"
+            android:hardwareAccelerated="false">
+        </activity>
+
+        <!-- PRESAGE LIBRARY -->
+        <meta-data android:name="presage_key" android:value="@string/OguryStr"/>
+        <service android:name="io.presage.services.PresageServiceImp"/>
+        <activity
+            android:name="io.presage.activities.PresageActivity"
+            android:label="@string/app_name" android:theme="@style/Presage.Theme.Transparent">
+            <intent-filter>
+                <action android:name="io.presage.intent.action.LAUNCH_WEBVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="io.presage.receivers.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="io.presage.receivers.BootReceiver.RESTART_SERVICE"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/layout/main.xml   Era LinearLayout-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button android:id="@+id/holaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/hola"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/adiosPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/adios"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:background="@drawable/custom_button_lblue"
+                android:id="@+id/buenosdiasPlayerBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="@string/buenosdias"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/buenastardesPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/buenas_tardes"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/buenasnochesPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/buenas_noches"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/hastaluegoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/hasta_luego"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/hastamananaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/hasta_manana"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/quetalPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/quetal"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/biengraciasPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/bien_gracias"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/buenprovechoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/buen_provecho"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/mepuedeayudarPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/me_puede_ayudar"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/cuantocuestaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/cuanto_cuesta"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/nohabloespanolPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/no_hablo_espanol"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/necesitounmedicoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/necesito_un_medico"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/dedondeeresPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/de_donde_eres"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/soydeeeuuPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/soy_de_eeuu"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/comosellamaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/como_se_llama"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/mellamopaulPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/me_llamo_paul"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/arribaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/arriba"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/abajoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/abajo"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/izquierdaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/izquierda"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/derechaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/derecha"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/centroPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/centro"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/delantePlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/delante"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/detrasPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/detras"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/encimaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/encima"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/debajoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/debajo"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/losientoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/lo_siento"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/porfavorPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/por_favor"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/graciasPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/gracias"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/denadaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/de_nada"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/muchasgraciasPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/muchas_gracias"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/nograciasPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/no_gracias"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/encantadoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/encantado"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/estabienPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/esta_bien"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/uncafePlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/un_cafe"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/unacervezaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/una_cerveza"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/elbanoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/el_bano"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/lacartaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/la_carta"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/unatortillaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/una_tortilla"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/unapaellaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/una_paella"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/lacuentaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/la_cuenta"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/desayunoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/desayuno"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/comidaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/comida"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/cenaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/cena"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/cucharaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/cuchara"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/tenedorPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/tenedor"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/cuchilloPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/cuchillo"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/panPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/pan"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button android:id="@+id/vasoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/vaso"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/aguaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/agua"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/servilletaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/servilleta"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/camareroPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/camarero"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/megustaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/me_gusta"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/siPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/si"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/noPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/no"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/esposiblePlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/es_posible"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/nuncaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/nunca"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/siemprePlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/siempre"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/avecesPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/a_veces"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/hoyPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/hoy"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/ayerPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/ayer"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/mananaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/manana"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/cochePlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/coche"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/avionPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/avion"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/trenPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/tren"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/autobusPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/autobus"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/bicicletaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/bicicleta"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/hotelPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/hotel"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/habitacionPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/habitacion"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/habitacionreservadaPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/habitacion_reservada"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+
+            <Button android:id="@+id/hastaprontoPlayerBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button_lblue"
+                android:text="@string/hasta_pronto"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
